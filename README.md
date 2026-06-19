@@ -102,6 +102,6 @@ build/examples/ntrip_server_exam
 for using **NtripCaster**, Add configuration option `-DNTRIP_BUILD_CASTER=ON`.
 
 
-./neptune_base --device /dev/ttyACM0 --baud 921600 --port 8090
-./neptune_rover --caster-ip 192.168.2.106 --device /dev/ttyACM0 --baud 921600
+./neptune_base --device /dev/ttyACM0 --baud 921600 --port 8090 --save-obs --obs-file ~/lindx/Data/Base.rtcm3
+./neptune_rover --caster-ip 192.168.2.106 --device /dev/ttyACM0 --baud 921600 --save-obs --obs-file ~/lindx/Data/Rover.rtcm3
 
